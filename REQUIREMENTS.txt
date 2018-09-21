@@ -1,0 +1,14 @@
+leave one out
+python..2.7
+sklearn..'0.16.1'
+numpy...'1.7.1'
+scipy...'0.12.1'
+
+
+Undersampling
+
+python..2.7
+sklearn..'0.18'
+numpy...'1.11.1'
+scipy...'0.13.3'
+
