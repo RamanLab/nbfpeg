@@ -1,3 +1,14 @@
+We also evaluated our features using leave-one-species-out validation in which one
+species is left out as test set whereas all the other 26 species are kept as training set.
+We repeated this 27 times with different set of organisms as training and test set. This
+experiment was performed to check whether the features are effective to predict
+essential genes in a new unseen organism and are transferable across organisms. We
+used Random Forest Classifier [27] with 100 trees after undersampling equal number of
+non-essential genes since it was easily scalable for predicting essential genes in new
+organisms.
+
+
+
 1.change feature name to the any of the desires features in loo.sh 1st line
 allfeatsorted.txt ..597 network and sequence features
 allrefexsorted.txt..267 ReFeX features
