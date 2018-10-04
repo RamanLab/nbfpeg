@@ -26,3 +26,5 @@
 `python classification_sequence.py 1liu.txt 0liu.txt`
 
  Note: `1liu.txt` has all essential and `0liu.txt` has all non-essential genes.
+ 
+ Uncomment index and use Xnew for LASSO index based features
