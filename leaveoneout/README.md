@@ -25,7 +25,7 @@ for predicting essential genes in new organisms.
    `allcentsorted.txt`   => 14 network
    `all12centsorted.txt` => 12 centralities
 
-2. Change delimiter of `leave_one_out_network_across_SVMAC_1.py` and then run
+2. Change delimiter of `leaveoneoutnetworkacrossSVMAC_1.py` and then run
    the following.
 
 3. `bash dothis.sh`
