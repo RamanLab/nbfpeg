@@ -164,7 +164,7 @@ print(true_n, false_p, false_n, true_p)
 
 prec = precision_score(y1, test_predictions_svm)
 f1 = f1_score(y1, test_predictions_svm)
-sensitivity, specficity = compute_measures(true_p, false_p, false_n, true_n)
+sensitivity, specificity = compute_measures(true_p, false_p, false_n, true_n)
 print(sensitivity, specificity)
 
 average = (sensitivity + specificity) / 2
