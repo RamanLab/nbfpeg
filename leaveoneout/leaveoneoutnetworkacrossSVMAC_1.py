@@ -111,11 +111,11 @@ for i in range(len(oca1one)):
 combined_array_test = []
 combined_label_test = []
 for i in range(len(oca2zero)):
-    combinedarraytest.append(oca2zero[i])
-    combinedlabeltest.append(1)
+    combined_array_test.append(oca2zero[i])
+    combined_label_test.append(1)
 for i in range(len(oca2one)):
-    combinedarraytest.append(oca2one[i])
-    combinedlabeltest.append(0)
+    combined_array_test.append(oca2one[i])
+    combined_label_test.append(0)
 
 pos_neg_rep = np.array(combined_array_train)
 pos_neg_labels = np.array(combined_label_train)
