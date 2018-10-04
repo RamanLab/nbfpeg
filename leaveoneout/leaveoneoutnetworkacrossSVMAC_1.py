@@ -155,7 +155,7 @@ modytr = np.array(y_train_undersampled)
 
 clf = RFC(n_estimators=100)
 svm_best_clf = clf.fit(modxtr, modytr)
-test_predictions_svm = svmbestclf.predict(X1)
+test_predictions_svm = svm_best_clf.predict(X1)
 test_predictions_svm_proba = svm_best_clf.predict_proba(X1)
 accuracy = accuracy_score(y1,test_predictions_svm)
 true_n, false_p, false_n, true_p = confusion_matrix(
