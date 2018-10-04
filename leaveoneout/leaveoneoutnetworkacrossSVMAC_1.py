@@ -42,17 +42,17 @@ with open(sys.argv[1]) as newfile:
           h = val[:-2].split(" ") #change the delimiter accordingly
           allrolx[h[0]] = [float(i) for i in h[1:]]
 
-train_files = []
-test_files = []
+trainfiles=
+testfiles=
 
 train_proteins = []
-for i in train_files:
+for i in trainfiles:
     with open(i+".nuclnew.prot") as f:
          for j in f:
               train_proteins.append(j[:-1])
 
 test_proteins = []
-for i in test_files:
+for i in testfiles:
     with open(i+".nuclnew.prot") as f:
          for j in f:
               test_proteins.append(j[:-1])
