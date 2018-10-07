@@ -141,7 +141,6 @@ for outer in range(5):
          # Tests on 1/3rd testing set
          test_predictions_svm = svm_best_clf.predict(X_test)
          test_predictions_svm_proba = svm_best_clf.predict_proba(X_test)
-         print(accuracy_score(y_test, testpredictions_svm))
          
          true_n, false_p, false_n, true_p = confusion_matrix(
               y_test, test_predictions_svm).ravel()
