@@ -157,37 +157,6 @@ for outer in range(5):
          final_precision.append(precision)
          final_f1.append(f1)
 
-         fpr, tpr, thresholds = roc_curve(y_test,
-                                          test_predictions_svm_proba[:,1])
-         roc_auc1 = auc(fpr, tpr)
-         print(roc_auc1)
-
-         precision, recall, thresholds = precision_recall_curve(
-              y_test, test_predictions_svm_proba[:, 1])
-         area = auc(recall, precision)
-         area_1 = average_precision_score(y_test,
-                                         test_predictions_svm_proba[:, 1])
-         final_auc.append(roc_auc1)
-         final_average.append(average)
-         final_area.append(area)
-         final_area_1.append(area_1)
-
-
-         fpr, tpr, thresholds = roc_curve(y_test,
-                                          test_predictions_svm_proba[:,1])
-         roc_auc1 = auc(fpr, tpr)
-         print(roc_auc1)
-
-         precision, recall, thresholds = precision_recall_curve(
-              y_test, test_predictions_svm_proba[:, 1])
-         area = auc(recall, precision)
-         area_1 = average_precision_score(y_test,
-                                         test_predictions_svm_proba[:, 1])
-         final_auc.append(roc_auc1)
-         final_average.append(average)
-         final_area.append(area)
-         final_area_1.append(area_1)
-
 print(np.mean(np.array(final_sensitivity)))
 print(np.mean(np.array(final_specificity)))
 print(np.mean(np.array(final_auc)))
