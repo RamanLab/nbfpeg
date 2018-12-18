@@ -5,6 +5,10 @@ validation. Please check the directories for individual details and refer the
 
 All relevant data and features are available at [DATAHUB link](https://datahub.io/karthik1290/nbfpeg-data)
 
+### Citing NBFPEG
+If you use NBFPEG features in your work, please cite
+>Azhagesan K, Ravindran B, Raman K (2018) Network-based features enable prediction of essential genes across diverse organisms. PLoS ONE 13(12): e0208722. https://doi.org/10.1371/journal.pone.0208722 (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208722)
+
 
 ### Acknowledgements
 * High Performance Computing Environment, P G Senapathy Centre for Computing Resources, IIT Madras
