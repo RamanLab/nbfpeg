@@ -12,7 +12,7 @@ If you use NBFPEG features in your work, please cite
 
 ### Acknowledgements
 * High Performance Computing Environment, P G Senapathy Centre for Computing Resources, IIT Madras
-* Grant BT/PR4949/BRB/10/1048/2012 from the [Department of Biotechnology, Government of India](https://www.dbtindia.nic.in/).
+* The work was partly supported by a research grantRB/18-19/CSE/002/INTI/BRAV from Intel Technology India Pvt Ltd to B Ravindran
 * [Initiative for Biological Systems Engineering](https://ibse.iitm.ac.in/)
 * [Robert Bosch Centre for Data Science and Artificial Intelligence (RBCDSAI)](https://rbcdsai.iitm.ac.in/)
 
